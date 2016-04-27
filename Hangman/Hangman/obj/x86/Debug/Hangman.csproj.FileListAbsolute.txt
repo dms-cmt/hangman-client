@@ -1,0 +1,13 @@
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\Hangman\Hangman\bin\Debug\Hangman.exe
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\Hangman\Hangman\bin\Debug\Hangman.pdb
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\Hangman\Hangman\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\Hangman\Hangman\obj\x86\Debug\Hangman.frmGlavna.resources
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\Hangman\Hangman\obj\x86\Debug\Hangman.frmRekordi.resources
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\Hangman\Hangman\obj\x86\Debug\Hangman.Properties.Resources.resources
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\Hangman\Hangman\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\Hangman\Hangman\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\Hangman\Hangman\obj\x86\Debug\Hangman.exe
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\Hangman\Hangman\obj\x86\Debug\Hangman.pdb
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\Hangman\Hangman\obj\x86\Debug\Hangman.frmO.resources
+C:\Documents and Settings\Admin\my documents\visual studio 2010\Projects\Hangman\Hangman\obj\x86\Debug\Hangman.frmIgra.resources
+C:\Documents and Settings\Admin\my documents\visual studio 2010\Projects\Hangman\Hangman\obj\x86\Debug\Hangman.frmUnosRekorda.resources
