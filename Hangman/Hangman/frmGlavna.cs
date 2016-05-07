@@ -159,7 +159,7 @@ namespace Hangman
 		{
 			var security = new SecurityMode ();
 			var binding = new WSHttpBinding (security, true);
-			var address = new EndpointAddress ("http://localhost:8325/");
+			var address = new EndpointAddress ("http://dms-cmt.ddns.net:8325/");
 			client = new HangmanClient (binding, address);
 		}
     }

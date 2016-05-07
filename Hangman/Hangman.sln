@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman", "Hangman\Hangman.csproj", "{307FE268-B45C-4E84-8381-F42353A92AA5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4851A0A5-D323-4F8B-8EB4-92998E7AE6D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,11 @@ Global
 		{307FE268-B45C-4E84-8381-F42353A92AA5}.Debug|x86.Build.0 = Debug|x86
 		{307FE268-B45C-4E84-8381-F42353A92AA5}.Release|x86.ActiveCfg = Release|x86
 		{307FE268-B45C-4E84-8381-F42353A92AA5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Hangman\Hangman.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

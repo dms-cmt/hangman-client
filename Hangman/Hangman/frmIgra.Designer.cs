@@ -105,7 +105,7 @@
             this.btnA.TabIndex = 1;
             this.btnA.Text = "A";
             this.btnA.UseVisualStyleBackColor = false;
-            this.btnA.Click += new System.EventHandler(this.btnA_Click);
+			this.btnA.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnB
             // 
@@ -118,7 +118,7 @@
             this.btnB.TabIndex = 2;
             this.btnB.Text = "B";
             this.btnB.UseVisualStyleBackColor = false;
-            this.btnB.Click += new System.EventHandler(this.btnB_Click);
+			this.btnB.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnC
             // 
@@ -131,7 +131,7 @@
             this.btnC.TabIndex = 3;
             this.btnC.Text = "C";
             this.btnC.UseVisualStyleBackColor = false;
-            this.btnC.Click += new System.EventHandler(this.btnC_Click);
+			this.btnC.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnCh
             // 
@@ -144,7 +144,7 @@
             this.btnCh.TabIndex = 4;
             this.btnCh.Text = "Č";
             this.btnCh.UseVisualStyleBackColor = false;
-            this.btnCh.Click += new System.EventHandler(this.btnCh_Click);
+			this.btnCh.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnChi
             // 
@@ -157,7 +157,7 @@
             this.btnChi.TabIndex = 5;
             this.btnChi.Text = "Ć";
             this.btnChi.UseVisualStyleBackColor = false;
-            this.btnChi.Click += new System.EventHandler(this.btnChi_Click);
+			this.btnChi.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnF
             // 
@@ -170,7 +170,7 @@
             this.btnF.TabIndex = 10;
             this.btnF.Text = "F";
             this.btnF.UseVisualStyleBackColor = false;
-            this.btnF.Click += new System.EventHandler(this.btnF_Click);
+			this.btnF.Click += new System.EventHandler(this.SlovoClick);
             // 
             // brnE
             // 
@@ -183,7 +183,7 @@
             this.brnE.TabIndex = 9;
             this.brnE.Text = "E";
             this.brnE.UseVisualStyleBackColor = false;
-            this.brnE.Click += new System.EventHandler(this.brnE_Click);
+			this.brnE.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnDj
             // 
@@ -196,7 +196,7 @@
             this.btnDj.TabIndex = 8;
             this.btnDj.Text = "Đ";
             this.btnDj.UseVisualStyleBackColor = false;
-            this.btnDj.Click += new System.EventHandler(this.btnDj_Click);
+			this.btnDj.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnDz
             // 
@@ -209,7 +209,7 @@
             this.btnDz.TabIndex = 7;
             this.btnDz.Text = "Dž";
             this.btnDz.UseVisualStyleBackColor = false;
-            this.btnDz.Click += new System.EventHandler(this.btnDz_Click);
+			this.btnDz.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnD
             // 
@@ -222,7 +222,7 @@
             this.btnD.TabIndex = 6;
             this.btnD.Text = "D";
             this.btnD.UseVisualStyleBackColor = false;
-            this.btnD.Click += new System.EventHandler(this.btnD_Click);
+			this.btnD.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnNj
             // 
@@ -235,7 +235,7 @@
             this.btnNj.TabIndex = 20;
             this.btnNj.Text = "Nj";
             this.btnNj.UseVisualStyleBackColor = false;
-            this.btnNj.Click += new System.EventHandler(this.btnNj_Click);
+			this.btnNj.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnN
             // 
@@ -248,7 +248,7 @@
             this.btnN.TabIndex = 19;
             this.btnN.Text = "N";
             this.btnN.UseVisualStyleBackColor = false;
-            this.btnN.Click += new System.EventHandler(this.btnN_Click);
+			this.btnN.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnM
             // 
@@ -261,7 +261,7 @@
             this.btnM.TabIndex = 18;
             this.btnM.Text = "M";
             this.btnM.UseVisualStyleBackColor = false;
-            this.btnM.Click += new System.EventHandler(this.btnM_Click);
+			this.btnM.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnLj
             // 
@@ -274,7 +274,7 @@
             this.btnLj.TabIndex = 17;
             this.btnLj.Text = "Lj";
             this.btnLj.UseVisualStyleBackColor = false;
-            this.btnLj.Click += new System.EventHandler(this.btnLj_Click);
+			this.btnLj.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnL
             // 
@@ -287,7 +287,7 @@
             this.btnL.TabIndex = 16;
             this.btnL.Text = "L";
             this.btnL.UseVisualStyleBackColor = false;
-            this.btnL.Click += new System.EventHandler(this.btnL_Click);
+			this.btnL.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnK
             // 
@@ -300,7 +300,7 @@
             this.btnK.TabIndex = 15;
             this.btnK.Text = "K";
             this.btnK.UseVisualStyleBackColor = false;
-            this.btnK.Click += new System.EventHandler(this.btnK_Click);
+			this.btnK.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnJ
             // 
@@ -313,7 +313,7 @@
             this.btnJ.TabIndex = 14;
             this.btnJ.Text = "J";
             this.btnJ.UseVisualStyleBackColor = false;
-            this.btnJ.Click += new System.EventHandler(this.btnJ_Click);
+			this.btnJ.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnI
             // 
@@ -326,7 +326,7 @@
             this.btnI.TabIndex = 13;
             this.btnI.Text = "I";
             this.btnI.UseVisualStyleBackColor = false;
-            this.btnI.Click += new System.EventHandler(this.btnI_Click);
+			this.btnI.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnH
             // 
@@ -339,7 +339,7 @@
             this.btnH.TabIndex = 12;
             this.btnH.Text = "H";
             this.btnH.UseVisualStyleBackColor = false;
-            this.btnH.Click += new System.EventHandler(this.btnH_Click);
+			this.btnH.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnG
             // 
@@ -352,7 +352,7 @@
             this.btnG.TabIndex = 11;
             this.btnG.Text = "G";
             this.btnG.UseVisualStyleBackColor = false;
-            this.btnG.Click += new System.EventHandler(this.btnG_Click);
+			this.btnG.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnZh
             // 
@@ -365,7 +365,7 @@
             this.btnZh.TabIndex = 30;
             this.btnZh.Text = "Ž";
             this.btnZh.UseVisualStyleBackColor = false;
-            this.btnZh.Click += new System.EventHandler(this.btnZh_Click);
+			this.btnZh.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnZ
             // 
@@ -378,7 +378,7 @@
             this.btnZ.TabIndex = 29;
             this.btnZ.Text = "Z";
             this.btnZ.UseVisualStyleBackColor = false;
-            this.btnZ.Click += new System.EventHandler(this.btnZ_Click);
+			this.btnZ.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnV
             // 
@@ -391,7 +391,7 @@
             this.btnV.TabIndex = 28;
             this.btnV.Text = "V";
             this.btnV.UseVisualStyleBackColor = false;
-            this.btnV.Click += new System.EventHandler(this.btnV_Click);
+			this.btnV.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnU
             // 
@@ -404,7 +404,7 @@
             this.btnU.TabIndex = 27;
             this.btnU.Text = "U";
             this.btnU.UseVisualStyleBackColor = false;
-            this.btnU.Click += new System.EventHandler(this.btnU_Click);
+			this.btnU.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnT
             // 
@@ -417,7 +417,7 @@
             this.btnT.TabIndex = 26;
             this.btnT.Text = "T";
             this.btnT.UseVisualStyleBackColor = false;
-            this.btnT.Click += new System.EventHandler(this.btnT_Click);
+			this.btnT.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnSh
             // 
@@ -430,7 +430,7 @@
             this.btnSh.TabIndex = 25;
             this.btnSh.Text = "Š";
             this.btnSh.UseVisualStyleBackColor = false;
-            this.btnSh.Click += new System.EventHandler(this.btnSh_Click);
+			this.btnSh.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnS
             // 
@@ -443,7 +443,7 @@
             this.btnS.TabIndex = 24;
             this.btnS.Text = "S";
             this.btnS.UseVisualStyleBackColor = false;
-            this.btnS.Click += new System.EventHandler(this.btnS_Click);
+			this.btnS.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnR
             // 
@@ -456,7 +456,7 @@
             this.btnR.TabIndex = 23;
             this.btnR.Text = "R";
             this.btnR.UseVisualStyleBackColor = false;
-            this.btnR.Click += new System.EventHandler(this.btnR_Click);
+			this.btnR.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnP
             // 
@@ -469,7 +469,7 @@
             this.btnP.TabIndex = 22;
             this.btnP.Text = "P";
             this.btnP.UseVisualStyleBackColor = false;
-            this.btnP.Click += new System.EventHandler(this.btnP_Click);
+			this.btnP.Click += new System.EventHandler(this.SlovoClick);
             // 
             // btnO
             // 
@@ -482,7 +482,7 @@
             this.btnO.TabIndex = 21;
             this.btnO.Text = "O";
             this.btnO.UseVisualStyleBackColor = false;
-            this.btnO.Click += new System.EventHandler(this.btnO_Click);
+			this.btnO.Click += new System.EventHandler(this.SlovoClick);
             // 
             // button1
             // 

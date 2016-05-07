@@ -75,6 +75,7 @@
             this.btnOsvezi.TabIndex = 6;
             this.btnOsvezi.Text = "Osveži";
             this.btnOsvezi.UseVisualStyleBackColor = false;
+			this.btnOsvezi.Click += new System.EventHandler(this.btnOsvezi_Click);
             // 
             // AnimacijaU
             // 

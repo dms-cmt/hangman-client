@@ -21,7 +21,7 @@ namespace HangmanService
 		 */
 		[OperationContract]
 		[FaultContract(typeof(ServiceFault))]
-		int PokreniIgru ();
+		int[] PokreniIgru ();
 
 		/**
 		 * Metoda koja proverava da li se
@@ -39,6 +39,25 @@ namespace HangmanService
 		[OperationContract]
 		[FaultContract(typeof(ServiceFault))]
 		int BrojPokusaja ();
+
+		/**
+		 * Metoda koja vraca status igre\n
+		 * 	- enumeraciju EStatusIgre
+		 */
+		[OperationContract]
+		EStatusIgre Status ();
+
+		/**
+		 * Metoda koja vraca trenutno vreme igra
+		 */
+		[OperationContract]
+		long Vreme ();
+
+		/**
+		 * Metoda koja vraca zadatu rec (film) kao listu karaktera
+		 */
+		[OperationContract]
+		char[] Resenje ();
 
 		/*
 		 * Rekordi

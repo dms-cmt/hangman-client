@@ -1,6 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hangman/frmIgra.cs">
+    <Files>
+      <File FileName="Hangman/frmIgra.cs" Line="7" Column="7" />
+      <File FileName="Hangman/frmRekordi.cs" Line="1" Column="1" />
+      <File FileName="Hangman/frmGlavna.cs" Line="1" Column="1" />
+      <File FileName="Hangman/frmUnosRekorda.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

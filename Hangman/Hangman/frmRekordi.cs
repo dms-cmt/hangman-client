@@ -22,9 +22,8 @@ namespace Hangman
             this.X = X;
             this.Y = Y;
             this.Location = new Point(X, Y);
-            InitializeComponent();
-
 			this.client = client;
+            InitializeComponent();
         }
 
         private void lblGreska_Click(object sender, EventArgs e)
@@ -49,6 +48,12 @@ namespace Hangman
             AnimacijaU.Stop();
             AnimacijaIz.Start();
         }
+
+		private void btnOsvezi_Click(object sender, EventArgs e)
+		{
+			PreuzmiRekorde ();
+		}
+
         private void frmRekordi_Load(object sender, EventArgs e)
         {
             /* DA SE NE BI MUCIO SA GOMILU LABEL-OVA POSTAVIO SAM DATA GRID VIEW STO BI TREBALO DA OLAKSA POSAO*/

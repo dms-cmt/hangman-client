@@ -33,7 +33,7 @@ namespace HangmanService
 		 * Igra
 		 */
 
-		public int PokreniIgru ()
+		public int[] PokreniIgru ()
 		{
 			return Channel.PokreniIgru ();
 		}
@@ -46,6 +46,21 @@ namespace HangmanService
 		public int BrojPokusaja ()
 		{
 			return Channel.BrojPokusaja ();
+		}
+
+		public EStatusIgre Status ()
+		{
+			return Channel.Status ();
+		}
+
+		public long Vreme ()
+		{
+			return Channel.Vreme ();
+		}
+
+		public char[] Resenje ()
+		{
+			return Channel.Resenje ();
 		}
 
 		/*
