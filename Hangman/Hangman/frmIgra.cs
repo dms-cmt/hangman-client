@@ -80,7 +80,7 @@ namespace Hangman
         {
 			int[] args;
 			args = client.PokreniIgru ();
-			ukupanBrojSlova = client.PokreniIgru ()[0];
+			ukupanBrojSlova = args [0];
 			txtGlavna.Text = "";
 			for (int i = 0, j = 1; i < ukupanBrojSlova; i++)
 			{
