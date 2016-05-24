@@ -2,14 +2,24 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Hangman/frmGlavna.cs">
     <Files>
+      <File FileName="../../hangman-web/Igra.aspx" Line="95" Column="1" />
+      <File FileName="../../hangman-web/Igra.aspx.cs" Line="70" Column="22" />
+      <File FileName="../../hangman-service/DataBase.cs" Line="130" Column="15" />
+      <File FileName="../../hangman-service/HangmanService.cs" Line="91" Column="3" />
+      <File FileName="../../hangman-service/ServiceFault.cs" Line="60" Column="67" />
+      <File FileName="../../hangman-service/IHangmanService.cs" Line="32" Column="21" />
+      <File FileName="../../hangman-web/Main.master" Line="22" Column="58" />
       <File FileName="Hangman/frmIgra.cs" Line="65" Column="65" />
       <File FileName="Hangman/frmRekordi.cs" Line="59" Column="59" />
-      <File FileName="Hangman/frmGlavna.cs" Line="91" Column="39" />
+      <File FileName="Hangman/frmGlavna.cs" Line="162" Column="46" />
+      <File FileName="Hangman/IHangmanService.cs" Line="78" Column="65" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="Hangman" expanded="True" selected="True" />
+          <Node name="Hangman" expanded="True">
+            <Node name="frmGlavna.cs" selected="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>

@@ -74,28 +74,28 @@ namespace Hangman
 
         private void AnimacijaU_Tick(object sender, EventArgs e)
         {
-            if (btnZapocni.Location.X != 220)
+            if (btnZapocni.Location.X >= 220)
             {
                 btnZapocni.Location = new Point(btnZapocni.Location.X - 5, btnZapocni.Location.Y);
             } else {
                 btnZapocni.Enabled = true;
             }
 
-            if (btnIzadji.Location.X != 220)
+            if (btnIzadji.Location.X >= 220)
             {
                 btnIzadji.Location = new Point(btnIzadji.Location.X - 5, btnIzadji.Location.Y);
             } else {
                 btnIzadji.Enabled = true;
             }
 
-            if (btnO.Location.X != 220)
+            if (btnO.Location.X >= 220)
             {
                 btnO.Location = new Point(btnO.Location.X - 5, btnO.Location.Y);
             } else {
                 btnO.Enabled = true;
             }
 
-            if (btnRekordi.Location.X != 220)
+            if (btnRekordi.Location.X >= 220)
             {
                 btnRekordi.Location = new Point(btnRekordi.Location.X - 5, btnRekordi.Location.Y);
             } else {
@@ -159,7 +159,7 @@ namespace Hangman
 		{
 			var security = new SecurityMode ();
 			var binding = new WSHttpBinding (security, true);
-			var address = new EndpointAddress ("http://dms-cmt.ddns.net:8325/");
+			var address = new EndpointAddress ("http://zivlakmilos.ddns.net:8325/");
 			client = new HangmanClient (binding, address);
 		}
     }

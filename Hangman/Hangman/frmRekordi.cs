@@ -73,16 +73,16 @@ namespace Hangman
 
         private void AnimacijaU_Tick(object sender, EventArgs e)
         {
-            if (btnOsvezi.Location.X != 220)
+            if (btnOsvezi.Location.X >= 220)
             {
                 btnOsvezi.Location = new Point(btnOsvezi.Location.X - 4, btnOsvezi.Location.Y);
                 btnNazad.Location = new Point(btnNazad.Location.X + 4, btnNazad.Location.Y);
             }
-            if(lblRekordi.Location.X != 216)
+            if(lblRekordi.Location.X >= 216)
             {
                 lblRekordi.Location = new Point(lblRekordi.Location.X - 4, lblRekordi.Location.Y);
             }
-            if(dataRekordi.Location.X != 220)
+            if(dataRekordi.Location.X >= 220)
             {
                 dataRekordi.Location = new Point(dataRekordi.Location.X - 4, dataRekordi.Location.Y);
             }
@@ -90,7 +90,7 @@ namespace Hangman
 
         private void AnimacijaIz_Tick(object sender, EventArgs e)
         {
-            if (btnNazad.Location.X != -212)
+            if (btnNazad.Location.X <= -212)
             {
                 btnNazad.Location = new Point(btnNazad.Location.X - 4, btnNazad.Location.Y);
                 btnOsvezi.Location = new Point(btnOsvezi.Location.X + 5, btnOsvezi.Location.Y);
